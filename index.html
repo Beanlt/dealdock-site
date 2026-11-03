@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DealDock | Quality Goods. Honest Prices.</title>
+<meta name="description" content="DealDock LLC is a Maryland online retailer of quality-checked tools, knives and outdoor gear from trusted brands. Shop our store on eBay.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="DealDock | Quality Goods. Honest Prices.">
+<meta property="og:description" content="Quality-checked tools, knives and outdoor gear from trusted brands, shipped fast from Maryland.">
+<meta property="og:image" content="https://dealdockus.com/assets/logo-512.png">
+<link rel="canonical" href="https://dealdockus.com/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DealDock LLC","alternateName":"DealDockUS","url":"https://dealdockus.com/","logo":"https://dealdockus.com/assets/logo-512.png","email":"hello@dealdockus.com","telephone":"+1-678-707-5555","address":{"@type":"PostalAddress","streetAddress":"88 E Padonia Rd","addressLocality":"Lutherville Timonium","addressRegion":"MD","postalCode":"21093","addressCountry":"US"},"sameAs":["https://www.ebay.com/usr/dealdockus"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --emerald:#00FFA3;--cyan:#00B8D9;--violet:#7C3AED;
+  --grad:linear-gradient(90deg,#00FFA3 0%,#00B8D9 50%,#7C3AED 100%);
+  --bg:#000;--surface:#1a1a1c;--surface-h:#1f1f22;--line:#242427;
+  --t1:#f5f5f7;--t2:#d1d1d6;--t3:#a1a1a6;--t4:#6e6e73;
+  --font:-apple-system,"SF Pro Display",Inter,"Helvetica Neue",Arial,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t2);font-family:var(--font);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--cyan);text-decoration:none}
+a:hover{color:var(--t1)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid var(--cyan);outline-offset:3px;border-radius:6px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{color:var(--t1);font-weight:600;letter-spacing:-.035em;line-height:1.1}
+.eyebrow{display:block;color:var(--emerald);font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+
+/* header */
+header{position:sticky;top:0;z-index:10;background:rgba(0,0,0,.82);backdrop-filter:saturate(180%) blur(14px);-webkit-backdrop-filter:saturate(180%) blur(14px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{width:40px;height:40px;border-radius:8px}
+.brand span{font-family:"Space Grotesk",var(--font);font-weight:700;font-size:22px;letter-spacing:.02em;background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
+.links{display:flex;gap:28px;align-items:center}
+.links a{color:var(--t2);font-size:15px;font-weight:500}
+.links a:hover{color:var(--t1)}
+.links .btn{color:#000}
+
+/* buttons */
+.btn{display:inline-block;background:var(--grad);color:#000;font-weight:600;font-size:15px;padding:12px 24px;border-radius:999px;transition:filter .2s,transform .2s}
+.btn:hover{color:#000;filter:brightness(1.1);transform:translateY(-1px)}
+.btn-sm{padding:8px 18px;font-size:14px}
+.ghost{color:var(--emerald);font-weight:500;font-size:15px}
+.ghost:hover{color:var(--t1)}
+
+/* hero */
+.hero{text-align:center;padding:120px 0 104px;border-bottom:1px solid var(--line)}
+.hero h1{font-size:clamp(44px,7vw,80px);letter-spacing:-.04em}
+.hero h1 .g{background:linear-gradient(90deg,#00FFA3,#00B8D9 55%,#7C3AED);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:560px;margin:24px auto 36px;color:var(--t2);font-size:18px}
+.cta{display:flex;gap:28px;justify-content:center;align-items:center;flex-wrap:wrap}
+
+/* sections */
+section{padding:96px 0;border-bottom:1px solid var(--line)}
+.head{text-align:center;max-width:680px;margin:0 auto 56px}
+.head h2{font-size:clamp(32px,4.5vw,44px)}
+.head p{margin-top:16px;color:var(--t3);font-size:17px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
+.card{background:var(--surface);border-radius:20px;padding:36px 28px;transition:background .2s}
+.card:hover{background:var(--surface-h)}
+.card h3{font-size:22px;margin:20px 0 10px}
+.card p{color:var(--t3);font-size:15px}
+.ico{width:52px;height:52px;border-radius:50%;background:rgba(0,255,163,.08);display:grid;place-items:center;color:var(--emerald)}
+.ico svg{width:24px;height:24px}
+.center .card{text-align:center}
+.center .ico{margin:0 auto}
+
+/* partners */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.two h2{font-size:clamp(32px,4.5vw,44px)}
+.two .lead{margin-top:18px;color:var(--t3);font-size:17px}
+.list{list-style:none;display:grid;gap:12px}
+.list li{background:var(--surface);border-radius:14px;padding:18px 20px 18px 52px;position:relative;color:var(--t2);font-size:15px}
+.list li::before{content:"";position:absolute;left:20px;top:22px;width:16px;height:16px;border-radius:50%;background:var(--emerald);-webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3 3 7-7' stroke='black' stroke-width='2.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat;mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 8.5l3 3 7-7' stroke='black' stroke-width='2.2' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/contain no-repeat}
+.list strong{color:var(--t1);font-weight:600}
+
+/* faq */
+.faq{max-width:780px;margin:0 auto}
+details{border-bottom:1px solid var(--line)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;padding:20px 0;color:var(--t1);font-weight:500;font-size:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--t3);font-size:22px;font-weight:300;transition:transform .2s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{padding:0 0 22px;color:var(--t3);font-size:15px}
+
+/* contact */
+.contact{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.contact .card{text-align:left}
+.contact .label{color:var(--t4);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.contact .val{display:block;margin-top:10px;color:var(--t1);font-size:18px;font-weight:500;letter-spacing:-.01em}
+.contact a.val:hover{color:var(--cyan)}
+
+footer{padding:40px 0;color:var(--t4);font-size:14px}
+.foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+footer a{color:var(--t3)}
+
+@media (max-width:860px){
+  .grid,.contact{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr;gap:32px}
+  .links a:not(.btn){display:none}
+  .hero{padding:88px 0 80px}
+  section{padding:72px 0}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.card{transition:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="DealDock home">
+      <img src="assets/logo-512.png" alt="DealDock logo" width="40" height="40">
+      <span>DealDock</span>
+    </a>
+    <nav class="links" aria-label="Main">
+      <a href="#about">About</a>
+      <a href="#categories">Categories</a>
+      <a href="#partners">For Brands</a>
+      <a href="#contact">Contact</a>
+      <a class="btn btn-sm" href="https://www.ebay.com/usr/dealdockus" target="_blank" rel="noopener">Shop on eBay</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <div class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Tested &amp; Trusted</span>
+      <h1>Quality Goods.<br><span class="g">Honest Prices.</span></h1>
+      <p>Quality-checked tools, knives and outdoor gear from trusted brands, shipped fast from Maryland.</p>
+      <div class="cta">
+        <a class="btn" href="https://www.ebay.com/usr/dealdockus" target="_blank" rel="noopener">Shop our eBay store</a>
+        <a class="ghost" href="#partners">Brands &amp; distributors ›</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Why DealDock</span>
+        <h2>Built on trust, not luck</h2>
+        <p>DealDock LLC is a small, owner-run online retailer based in Maryland. We sell a focused range of products, describe each one accurately, and stand behind every order.</p>
+      </div>
+      <div class="grid center">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8 12.5l2.7 2.7L16 9.8"/></svg></div>
+          <h3>Quality-Checked</h3>
+          <p>Every item is inspected before it ships, so you get exactly what is listed.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7"/><circle cx="7" cy="17.5" r="1.6"/><circle cx="17" cy="17.5" r="1.6"/></svg></div>
+          <h3>Fast Shipping</h3>
+          <p>Orders ship from Maryland, usually within 1 business day.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+          <h3>Honest Listings</h3>
+          <p>Each listing states the exact condition: New, Open box or Pre-owned. No surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">What we carry</span>
+        <h2>Our main categories</h2>
+        <p>A focused range we know well. Current listings are always on our eBay store.</p>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.2L3.5 17.3a1.8 1.8 0 0 0 2.6 2.6l5.8-5.8a4 4 0 0 0 5.2-5.4l-2.4 2.4-2.2-.6-.6-2.2z"/></svg></div>
+          <h3>Tools</h3>
+          <p>Hand tools, power tools and accessories for the job site and the home shop.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l9-9"/><path d="M13 11l6.5-6.5c.8 3.6-.6 7.4-3.8 9.5L13 11z"/><path d="M6.5 15.5l2 2"/></svg></div>
+          <h3>Knives</h3>
+          <p>Pocket knives, fixed blades and multi-tools from established makers.</p>
+        </div>
+        <div class="card">
+          <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M5 20l7-14 7 14"/><path d="M12 6v14"/></svg></div>
+          <h3>Outdoor Gear</h3>
+          <p>Camping, hiking and everyday carry gear built to last.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="partners">
+    <div class="wrap two">
+      <div>
+        <span class="eyebrow">For brands &amp; distributors</span>
+        <h2>A reseller you can count on</h2>
+        <p class="lead">We are looking to work with brands and distributors that want their products presented accurately and sold responsibly online. If you are reviewing a dealer application from DealDock, this is how we operate.</p>
+        <p class="lead"><a class="btn" href="mailto:hello@dealdockus.com?subject=Wholesale%20inquiry%20from%20DealDock%20website">Contact us about wholesale</a></p>
+      </div>
+      <ul class="list">
+        <li><strong>Registered business.</strong> DealDock LLC is a Maryland limited liability company in good standing.</li>
+        <li><strong>Accurate listings.</strong> We use your official product information and images, and we state condition clearly.</li>
+        <li><strong>Pricing policies respected.</strong> We follow the minimum advertised price policy of every brand we carry.</li>
+        <li><strong>Genuine products only.</strong> Every item is sourced from brands, authorized distributors or major retailers, with the invoice kept on file.</li>
+        <li><strong>Customer care.</strong> Questions and returns are handled directly by the owner, usually within one business day.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">FAQ</span>
+        <h2>Questions, answered</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>Where can I buy from DealDock?</summary>
+          <p>All our products are sold through our eBay store, DealDockUS. eBay handles secure checkout and buyer protection on every order.</p>
+        </details>
+        <details>
+          <summary>Where does DealDock ship from?</summary>
+          <p>All orders ship from Maryland, usually within 1 business day. Delivery times depend on the carrier and your location.</p>
+        </details>
+        <details>
+          <summary>What condition are your products in?</summary>
+          <p>Every listing states the exact condition: New, Open box or Pre-owned. Each item is quality-checked before it ships.</p>
+        </details>
+        <details>
+          <summary>What is your return policy?</summary>
+          <p>Returns follow the policy shown on each eBay listing. Contact us any time and we will make it right.</p>
+        </details>
+        <details>
+          <summary>Do you offer a warranty?</summary>
+          <p>New items carry the manufacturer's warranty where it applies. Any warranty details are noted on each listing.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Contact</span>
+        <h2>Get in touch</h2>
+        <p>Brands, distributors and customers are all welcome. We reply within one business day.</p>
+      </div>
+      <div class="contact">
+        <div class="card">
+          <span class="label">Email</span>
+          <a class="val" href="mailto:hello@dealdockus.com">hello@dealdockus.com</a>
+        </div>
+        <div class="card">
+          <span class="label">Phone</span>
+          <a class="val" href="tel:+16787075555">(678) 707-5555</a>
+        </div>
+        <div class="card">
+          <span class="label">Address</span>
+          <span class="val">DealDock LLC<br>88 E Padonia Rd<br>Lutherville Timonium, MD 21093</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="y">2026</span> DealDock LLC. All rights reserved.</span>
+    <span><a href="https://www.ebay.com/usr/dealdockus" target="_blank" rel="noopener">eBay store</a> · <a href="mailto:hello@dealdockus.com">hello@dealdockus.com</a></span>
+  </div>
+</footer>
+
+<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+</body>
+</html>

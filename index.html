@@ -11,7 +11,7 @@
 <meta property="og:description" content="Quality-checked tools, knives and outdoor gear from trusted brands, shipped fast from Maryland.">
 <meta property="og:image" content="https://dealdockus.com/assets/logo-512.png">
 <link rel="canonical" href="https://dealdockus.com/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DealDock LLC","alternateName":"DealDockUS","url":"https://dealdockus.com/","logo":"https://dealdockus.com/assets/logo-512.png","email":"hello@dealdockus.com","telephone":"+1-678-707-5555","address":{"@type":"PostalAddress","streetAddress":"88 E Padonia Rd","addressLocality":"Lutherville Timonium","addressRegion":"MD","postalCode":"21093","addressCountry":"US"},"sameAs":["https://www.ebay.com/usr/dealdockus"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DealDock LLC","alternateName":"DealDockUS","url":"https://dealdockus.com/","logo":"https://dealdockus.com/assets/logo-512.png","email":"hello@dealdockus.com","telephone":"+1-678-707-5555","address":{"@type":"PostalAddress","addressRegion":"MD","addressCountry":"US"},"sameAs":["https://www.ebay.com/usr/dealdockus"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
@@ -62,7 +62,7 @@ header{position:sticky;top:0;z-index:10;background:rgba(0,0,0,.82);backdrop-filt
 section{padding:96px 0;border-bottom:1px solid var(--line)}
 .head{text-align:center;max-width:680px;margin:0 auto 56px}
 .head h2{font-size:clamp(32px,4.5vw,44px)}
-.head p{margin-top:16px;color:var(--t3);font-size:17px}
+.head p{margin-top:16px;color:var(--t3);font-size:17px;text-wrap:balance}
 .grid{display:grid;gap:16px;grid-template-columns:repeat(3,1fr)}
 .card{background:var(--surface);border-radius:20px;padding:36px 28px;transition:background .2s}
 .card:hover{background:var(--surface-h)}
@@ -93,7 +93,7 @@ details p{padding:0 0 22px;color:var(--t3);font-size:15px}
 
 /* contact */
 .contact{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
-.contact .card{text-align:left}
+.contact .card{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:132px;padding:28px 20px}
 .contact .label{color:var(--t4);font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
 .contact .val{display:block;margin-top:10px;color:var(--t1);font-size:18px;font-weight:500;letter-spacing:-.01em}
 .contact a.val:hover{color:var(--cyan)}
@@ -264,8 +264,8 @@ footer a{color:var(--t3)}
           <a class="val" href="tel:+16787075555">(678) 707-5555</a>
         </div>
         <div class="card">
-          <span class="label">Address</span>
-          <span class="val">DealDock LLC<br>88 E Padonia Rd<br>Lutherville Timonium, MD 21093</span>
+          <span class="label">Location</span>
+          <span class="val">Maryland, USA</span>
         </div>
       </div>
     </div>

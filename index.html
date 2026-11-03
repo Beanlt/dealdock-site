@@ -11,7 +11,7 @@
 <meta property="og:description" content="Quality-checked tools, knives and outdoor gear from trusted brands, shipped fast from Maryland.">
 <meta property="og:image" content="https://dealdockus.com/assets/logo-512.png">
 <link rel="canonical" href="https://dealdockus.com/">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DealDock LLC","alternateName":"DealDockUS","url":"https://dealdockus.com/","logo":"https://dealdockus.com/assets/logo-512.png","email":"hello@dealdockus.com","telephone":"+1-678-707-5555","address":{"@type":"PostalAddress","addressRegion":"MD","addressCountry":"US"},"sameAs":["https://www.ebay.com/usr/dealdockus"]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"DealDock LLC","alternateName":"DealDockUS","url":"https://dealdockus.com/","logo":"https://dealdockus.com/assets/logo-512.png","email":"hello@dealdockus.com","address":{"@type":"PostalAddress","addressRegion":"MD","addressCountry":"US"},"sameAs":["https://www.ebay.com/usr/dealdockus"]}</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
@@ -94,6 +94,7 @@ header{position:sticky;top:0;z-index:10;background:rgba(0,0,0,.92);backdrop-filt
 .faq details p{padding:0 0 15px;font-size:11px;line-height:1.65;color:var(--t3)}
 
 /* contact */
+.grid.contact{grid-template-columns:repeat(2,1fr);max-width:730px;margin:0 auto}
 .contact .card{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:120px}
 .contact .label{font-size:11px;font-weight:600;letter-spacing:1.1px;text-transform:uppercase;color:var(--t4)}
 .contact .val{margin-top:8.5px;font-size:18px;font-weight:500;letter-spacing:-.3px;color:var(--t1)}
@@ -109,7 +110,7 @@ footer{background:#080809;border-top:1px solid var(--line);padding:36px 0}
   .menu{display:none}
   .brand img{width:44px;height:44px}
   .hero h1{font-size:36px;letter-spacing:-.72px}
-  .grid,.split{grid-template-columns:1fr}
+  .grid,.split,.grid.contact{grid-template-columns:1fr}
   .split{gap:25px}
   .card h3{font-size:22px}
   .card p,.faq details p{font-size:12px}
@@ -264,10 +265,6 @@ footer{background:#080809;border-top:1px solid var(--line);padding:36px 0}
         <div class="card">
           <span class="label">Email</span>
           <a class="val" href="mailto:hello@dealdockus.com">hello@dealdockus.com</a>
-        </div>
-        <div class="card">
-          <span class="label">Phone</span>
-          <a class="val" href="tel:+16787075555">(678) 707-5555</a>
         </div>
         <div class="card">
           <span class="label">Location</span>

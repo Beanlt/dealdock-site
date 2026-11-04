@@ -16,7 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 <style>
-/* Thong so do tu dealdockus.com (theme Shopify "DealDock Dark"), 02/11/2026 */
+/* Khoang cach, co chu theo theme Shopify cu (02/11/2026). Mau: ban H nau espresso + trang + cam dat (Bean chot 04/11/2026), khai bao o cuoi file */
 :root{
   --grad:linear-gradient(135deg,#10B981 0%,#06B6D4 50%,#3B82F6 100%);
   --emerald:#34D399;--cyan:#06B6D4;
@@ -118,6 +118,37 @@ footer{background:#080809;border-top:1px solid var(--line);padding:36px 0}
   .btn{font-size:11px}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn,.card{transition:none}}
+:root{--bg:#FFFFFF;--alt:#F8F6F3;--hdr:rgba(255,255,255,.95);--surface:#F8F6F3;--surface-h:#F1EDE8;--line:#E7E1DA;
+--t1:#211A15;--t2:#3F3530;--t3:#655A53;--t4:#978C84;--main:#4A3020;--btn:#4A3020;--btn-h:#38241A;--headline:#C2571A;--accent:#C2571A;
+--icon-bg:rgba(194,87,26,.10);--icon:#B04E17;--block:#3B271B;--block-accent:#E8935A;--block-btn-text:#211A15;--foot:#2A1C14}
+#about .card{background:#fff}
+body{background:var(--bg);color:var(--t1)}
+header{background:var(--hdr)}
+.nav{border-bottom:1px solid var(--line)}
+.brand span{background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--main);letter-spacing:1px}
+.menu a{color:var(--t2)} .menu a:hover{color:var(--main)}
+.btn-primary{background:var(--btn);color:#fff}
+.btn-primary:hover{background:var(--btn-h);filter:none}
+.btn-secondary{color:var(--main);font-weight:600}
+.eyebrow{color:var(--accent)}
+.accent{background:none;-webkit-background-clip:initial;background-clip:initial;color:var(--headline)}
+.hero{background:var(--bg)}
+.section{border-top:1px solid var(--line)}
+#about,#faq{background:var(--alt)}
+.card,.checks li{background:var(--surface);border:1px solid var(--line)}
+.card:hover{background:var(--surface-h)}
+.icon{background:var(--icon-bg);color:var(--icon)}
+.checks li strong,.faq summary,.contact .val,h1,h2,h3{color:var(--t1)}
+.card p,.checks li,.hero p,.head .sub,.split .lead,.faq details p{color:var(--t3)}
+.contact .label{color:var(--t4)}
+#partners{background:var(--block);border-top:none}
+#partners h2{color:#fff} #partners .eyebrow{color:var(--block-accent)} #partners .lead{color:rgba(255,255,255,.78)}
+#partners .btn-primary{background:var(--block-accent);color:var(--block-btn-text)}
+#partners .checks li{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12);color:rgba(255,255,255,.75)}
+#partners .checks li strong{color:#fff} #partners .checks li::before{background:var(--block-accent)}
+.checks li::before{background:var(--accent)}
+footer{background:var(--foot);border-top:none}
+.foot{color:rgba(255,255,255,.6)} .foot a{color:rgba(255,255,255,.85)}
 </style>
 </head>
 <body>

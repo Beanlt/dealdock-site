@@ -212,6 +212,16 @@ footer{background:var(--foot);border-top:none}
 .tag{display:block;font-size:11px;font-weight:600;letter-spacing:1.1px;text-transform:uppercase;color:var(--t4);margin-bottom:6px}
 .conditions .card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(107,62,33,.08)}
 .conditions .card{transition:transform .2s,box-shadow .2s,background .2s}
+
+/* what we carry: bo khung the, chia cot bang vach mong (20/11) */
+.conditions{gap:0}
+.conditions .card,.conditions .card:hover{background:none;border:none;border-radius:0;box-shadow:none;transform:none;padding:8px 36px}
+.conditions .card::before{display:none}
+.conditions .card+.card{border-left:1px solid var(--line)}
+@media (max-width:749px){
+  .conditions .card{padding:28px 12px}
+  .conditions .card+.card{border-left:none;border-top:1px solid var(--line)}
+}
 </style>
 </head>
 <body>

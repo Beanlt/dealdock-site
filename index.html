@@ -200,6 +200,18 @@ footer{background:var(--foot);border-top:none}
   .btn{font-size:14px}
   .split{gap:28px}
 }
+
+/* what we carry: 3 the tinh trang */
+#categories .head{margin-bottom:44px}
+.conditions .card{position:relative;overflow:hidden;padding:40px 28px 34px;background:var(--surface)}
+.conditions .card::before{content:"";position:absolute;left:0;right:0;top:0;height:4px;background:var(--accent)}
+.conditions .card:nth-child(2)::before{background:var(--block-accent)}
+.conditions .card:nth-child(3)::before{background:var(--main)}
+.conditions .icon{width:72px;height:72px;margin:0 auto 20px}
+.conditions .icon svg{width:34px!important;height:34px!important;stroke-width:1.6}
+.tag{display:block;font-size:11px;font-weight:600;letter-spacing:1.1px;text-transform:uppercase;color:var(--t4);margin-bottom:6px}
+.conditions .card:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(107,62,33,.08)}
+.conditions .card{transition:transform .2s,box-shadow .2s,background .2s}
 </style>
 </head>
 <body>
@@ -265,13 +277,25 @@ footer{background:var(--foot);border-top:none}
       <div class="head">
         <span class="eyebrow">What we carry</span>
         <h2>A growing range of products</h2>
-        <p class="sub">From trusted brands, in New, Open box and Pre-owned condition. We add new items regularly.</p>
+        <p class="sub">From trusted brands, in three clear conditions. We add new items regularly.</p>
       </div>
-      <ul class="chips" aria-label="Conditions we sell">
-        <li>New</li>
-        <li>Open box</li>
-        <li>Pre-owned</li>
-      </ul>
+      <div class="grid center conditions">
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5"/><path d="M12 13v8"/></svg></div>
+          <h3>New</h3>
+          <p>Brand-new, in the original packaging.</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9 4 9-4"/><path d="M3 11v6l9 4 9-4v-6"/><path d="M12 15v6"/><path d="M3 11l3-5 6 3"/><path d="M21 11l-3-5-6 3"/></svg></div>
+          <h3>Open Box</h3>
+          <p>Packaging opened. Condition noted on each listing.</p>
+        </div>
+        <div class="card">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 0 0-14.6-4.5"/><path d="M4 3v4h4"/><path d="M4 13a8 8 0 0 0 14.6 4.5"/><path d="M20 21v-4h-4"/></svg></div>
+          <h3>Pre-owned</h3>
+          <p>Previously used. Condition noted on each listing.</p>
+        </div>
+      </div>
     </div>
   </section>
 
